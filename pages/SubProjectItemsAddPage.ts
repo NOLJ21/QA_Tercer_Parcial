@@ -17,7 +17,7 @@ export class SubProjectItemsAddPage {
     this.emailInput = page.locator('#ctl00_MainContent_LoginControl1_TextBoxEmail');
     this.passwordInput = page.locator('#ctl00_MainContent_LoginControl1_TextBoxPassword');
     this.submitLoginButton = page.getByRole('button', { name: 'Submit' });
-    this.subProjectTab = page.getByRole('cell', { name: 'Subproyecto 1', exact: true });
+    this.subProjectTab = page.getByRole('cell', { name: 'Subproyecto 2', exact: true });
     this.newItemInput = page.locator('#NewItemContentInput');
     this.addItemButton = page.getByRole('button', { name: 'Add' });
   }

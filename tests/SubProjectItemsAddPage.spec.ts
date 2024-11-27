@@ -1,7 +1,7 @@
 import { test } from '@playwright/test';
 import { SubProjectItemsAddPage } from '../pages/SubProjectItemsAddPage';
 
-test('Crear ítems en Subproyecto 1', async ({ page }) => {
+test('Crear ítems en Subproyecto 2', async ({ page }) => {
   const subProjectPage = new SubProjectItemsAddPage(page);
 
   // Navegar e iniciar sesión

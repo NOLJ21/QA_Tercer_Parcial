@@ -39,7 +39,7 @@ export class SubProjectAddPage {
   }
 
   async addSubProject(): Promise<string> {
-    const subProjectName = `Subproyecto ${SubProjectAddPage.subProjectCounter++}`;
+    const subProjectName = `Subproyecto 2`;
     await this.subProjectTab.click();
     await this.optionsButton.waitFor({ state: 'visible' });
     await this.optionsButton.click();
